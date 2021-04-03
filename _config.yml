@@ -1,0 +1,37 @@
+# site settings
+title: FortyTwoBinary
+subtitle: by David L Whitehurst
+email: jwlynhaven@outlook.com
+description: World-class software is not created, it's evolved.
+# baseurl: /blog # the subpath of your site, e.g. /blog
+url: http://localhost:4000 # https://fortytwobinary.com # the base hostname & protocol for your site
+author: David L. Whitehurst
+street_address: 2932 Tram Road
+city: Fuquay Varina
+state: NC
+zip_code: 27526
+country: United States of America
+phone: (919) 605-6529
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/dlwhitehurst
+gitlab_url: https://gitlab.com/dlwhitehurst
+googleplus_url:
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/dlwhitehurst/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/dlwhitehurst
+
+# build settings
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  style: compressed
