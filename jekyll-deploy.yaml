@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jekyll
+  namespace: jekyll
+  labels:
+    role: webserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      role: webserver 
+  template:
+    metadata:
+      labels:
+        role: webserver  
+    spec:
+      containers:
+      - name: frontend 
+        image: dlwhitehurst/site:1.0.0
+        ports:
+          - containerPort: 80

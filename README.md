@@ -1,6 +1,13 @@
-# dlwhitehurst.github.io
+# site 
 
-This is the FortyTwoBinary web site hosted on GitHub.
+This is the FortyTwoBinary web site hosted on Kubernetes at https://site.fortytwobinary.com
+
+### Hosting
+```
+kubectl apply -f jekyll-deploy.yaml
+kubectl expose deployment jekyll -n jekyll
+kubectl apply -f jekyll-ingress -n jekyll
+```
 
 ### Credits
 
