@@ -4,7 +4,7 @@ subtitle: by David L Whitehurst
 email: jwlynhaven@outlook.com
 description: World-class software is not created, it's evolved.
 # baseurl: /blog # the subpath of your site, e.g. /blog
-url: http://localhost:4000 # https://fortytwobinary.com # the base hostname & protocol for your site
+url: https://site.fortytwobinary.com # the base hostname & protocol for your site
 author: David L. Whitehurst
 street_address: 2932 Tram Road
 city: Fuquay Varina
@@ -20,8 +20,8 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url: https://github.com/dlwhitehurst
-gitlab_url: https://gitlab.com/dlwhitehurst
+github_url: https://github.com/fortytwobinary/site
+gitlab_url:
 googleplus_url:
 instagram_url: https://instagram.com
 linkedin_url: https://www.linkedin.com/in/dlwhitehurst/
