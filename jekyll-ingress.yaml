@@ -1,0 +1,24 @@
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  namespace: "jekyll"
+  name: "jekyll-ingress"
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/proxy-body-size:  "50m"
+spec:
+  tls:
+  - hosts:
+    - "site.fortytwobinary.com"
+    secretName: "jekyll-prod-tls"
+  rules:
+  - host: "site.fortytwobinary.com"
+    http:
+      paths:
+        - path: /
+          backend:
+            serviceName: "jekyll"
+            servicePort: 80
+---
+
