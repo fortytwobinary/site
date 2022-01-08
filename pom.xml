@@ -22,7 +22,7 @@
 	<groupId>com.fortytwobinary</groupId>
 	<artifactId>site</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.0-alpine</version>
+	<version>0.1.1-alpine</version>
 	
 	<name>FortyTwoBinary Website</name>
 

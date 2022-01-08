@@ -1,10 +1,10 @@
 # site settings
 title: FortyTwoBinary
 subtitle: by David L Whitehurst
-email: jwlynhaven@outlook.com
+email: david@fortytwobinary.com 
 description: World-class software is not created, it's evolved.
 # baseurl: /blog # the subpath of your site, e.g. /blog
-url: https://site.fortytwobinary.com # the base hostname & protocol for your site
+url: https://fortytwobinary.com # the base hostname & protocol for your site
 author: David L. Whitehurst
 street_address: 2932 Tram Road
 city: Fuquay Varina
@@ -20,7 +20,7 @@ tiles-count: 6
 # social settings
 500px_url:
 facebook_url:
-github_url: https://github.com/fortytwobinary/site
+github_url: 
 gitlab_url:
 googleplus_url:
 instagram_url: https://instagram.com
